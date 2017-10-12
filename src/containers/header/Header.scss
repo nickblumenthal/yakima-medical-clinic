@@ -1,0 +1,33 @@
+$link_border_color: #793b3d;
+
+ul {
+  height: 100%;
+
+  li.nav-item {
+    padding: 0px 20px;
+    height: 100%;
+
+    a {
+      color: #6e6e6e;
+      text-decoration: none;
+
+      &:after {
+        display:block;
+        content: '';
+        border-bottom: solid 3px $link_border_color;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+      }
+
+      &:hover:after { transform: scaleX(1); }
+
+      &.active {
+        color: #444444;
+        &:after {
+            transform: scaleX(1);
+            transition: 0;
+        }
+      }
+    }
+  }
+}
