@@ -1,0 +1,10 @@
+.education img {
+  height: 300px;
+  object-fit: cover; }
+
+.education .media img {
+  height: 64px;
+  width: 64px; }
+
+.education .media a:hover {
+  text-decoration: none; }

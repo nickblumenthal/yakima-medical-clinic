@@ -1,0 +1,12 @@
+.bio p {
+  text-align: left; }
+
+.goal-statement {
+  background-color: #f5f5f5; }
+  .goal-statement em {
+    color: #652C25; }
+
+.headshot {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px; }

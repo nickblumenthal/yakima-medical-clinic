@@ -1,0 +1,19 @@
+.education {
+  img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .media {
+    img {
+      height: 64px;
+      width: 64px;
+    }
+
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
