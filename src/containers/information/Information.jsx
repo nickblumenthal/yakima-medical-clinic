@@ -6,29 +6,27 @@ class Information extends Component {
   render() {
     return (
       <Row noGutters className="justify-content-center">
-        <Col xs={10} className="text-left">
+        <Col xs={8} className="text-left">
           <section>
             <h3>Medical Insurance</h3>
-            <p>
-              Medical Insurance We are currently accepting the following insurance plans:
-              <ul>
-                <li>Yakima Medical Clinic</li>
-                <li>Apple Care</li>
-                <li>Cigna</li>
-                <li>Coordinated Care</li>
-                <li>First Choice</li>
-                <li>First Health</li>
-                <li>Great West</li>
-                <li>Kaiser Permanente</li>
-                <li>Medicare</li>
-                <li>Molina</li>
-                <li>PHCO</li>
-                <li>PHCS</li>
-                <li>Premera</li>
-                <li>Regence</li>
-                <li>Untied Health Care</li>
-              </ul>
-            </p>
+            We are currently accepting the following insurance plans:
+            <ul>
+              <li>Yakima Medical Clinic</li>
+              <li>Apple Care</li>
+              <li>Cigna</li>
+              <li>Coordinated Care</li>
+              <li>First Choice</li>
+              <li>First Health</li>
+              <li>Great West</li>
+              <li>Kaiser Permanente</li>
+              <li>Medicare</li>
+              <li>Molina</li>
+              <li>PHCO</li>
+              <li>PHCS</li>
+              <li>Premera</li>
+              <li>Regence</li>
+              <li>Untied Health Care</li>
+            </ul>
           </section>
           <section>
             <h3>Co-pays</h3>
@@ -54,8 +52,25 @@ class Information extends Component {
               Please call your pharmacy to request a refill. They will then contact our office for approval. We require 24-48 hours to refill a medication. We no longer fax prescriptions to mail away pharmacies. You may call our office and request a written prescription which will be signed and given to the patient, which in turn can be mailed in by them.
             </p>
           </section>
+          <section>
+            <h3>Billing Information</h3>
+            <p>
+              For any billing information, please call the office to speak with our billing coordinator directly. Due to the Hippa privacy regulations, all billing inquires must be via telephone or in person.
+            </p>
+          </section>
+          <section>
+            <h3>Scheduling</h3>
+            <p>
+              If you are inquiring about a setting up routine follow up, you may do this via e-mail. Please state the days and times that work best for you. We will then e-mail back the date and time of your appointment. If this is an acute issue and you are need of a same-day appointment, please call our scheduling desk. Download the New Patient Health History [PDF File pdf 67 KB]
+            </p>
+          </section>
+          <section>
+            <h3>Hippa Privacy Policies</h3>
+            <p>
+              Yakima Medical Clinic respects your privacy. We understand that your personal health information is very sensitive. We will not disclose your information to others unless you authorize us to do so, or unless the law authorizes or requires us to do so. Download the Notice of Privacy Practices [PDF File pdf 66 KB]
+            </p>
+          </section>
         </Col>
-        Information
       </Row>
     )
   }

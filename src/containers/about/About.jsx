@@ -13,9 +13,9 @@ class About extends Component {
   render() {
     return[
       <Row noGutters className="goal-statement py-2 p-4">
-        <blockquote class="blockquote">
+        <blockquote className="blockquote">
           Our goal at the Yakima Medical Clinic is to provide you with the best possible care suited to your individual needs. We treat each patient with <em>respect, compassion, and honesty</em>.
-          <footer class="blockquote-footer">Dr. Vye</footer>
+          <footer className="blockquote-footer">Dr. Vye</footer>
         </blockquote>
       </Row>,
       <Row noGutters className="bio py-2 p-4 mt-4 justify-content-center">

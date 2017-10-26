@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -29,4 +30,9 @@
 
 body {
   color: #444;
+  height: inherit;
+}
+
+html {
+  min-height: 100%;
 }
