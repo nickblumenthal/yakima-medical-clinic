@@ -6,7 +6,7 @@ class Information extends Component {
   render() {
     return (
       <Row noGutters className="justify-content-center">
-        <Col xs={8} className="text-left">
+        <Col xs={11} sm={8} className="text-left">
           <section>
             <h3>Medical Insurance</h3>
             We are currently accepting the following insurance plans:

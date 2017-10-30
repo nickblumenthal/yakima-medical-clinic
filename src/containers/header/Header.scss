@@ -11,7 +11,6 @@ ul {
 
   li.nav-item {
     padding: 0px 20px;
-    height: 100%;
 
     a {
       color: #6e6e6e;
@@ -33,6 +32,30 @@ ul {
             transform: scaleX(1);
             transition: 0;
         }
+      }
+    }
+  }
+}
+
+// Burger Menu specific styling
+.bm-menu {
+  li.nav-item {
+    padding: 5px 20px;
+
+    a {
+      color: #6e6e6e;
+      text-decoration: none;
+
+      &.active {
+        color: $link_border_color;
+        &:after {
+          transform: scaleX(0);
+          transition: 0;
+        }
+      }
+
+      &:active {
+        color: darken($link_border_color, 50%);
       }
     }
   }

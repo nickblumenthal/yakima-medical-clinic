@@ -1,6 +1,16 @@
 .App {
   text-align: center;
   height: 100%;
+  margin-bottom: 136px;
+  min-height: calc(100vh - 136px);
+  position: relative;
+
+}
+
+@media (max-width: 575px) {
+  .App {
+    min-height: calc(100vh - 184px);
+  }
 }
 
 .App-logo {
@@ -30,9 +40,10 @@
 
 body {
   color: #444;
-  height: inherit;
+  height: 100%;
+  min-height: 100vh;
 }
 
 html {
-  min-height: 100%;
+  min-height: 100vh;
 }

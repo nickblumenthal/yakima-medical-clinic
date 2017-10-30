@@ -26,7 +26,7 @@ class Contact extends Component {
         <Col xs={12} md={5}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2741.6877942047377!2d-120.523866!3d46.59340900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5499d7e055de42ef%3A0x839faf518dc9e375!2sYakima+Medical+Clinic!5e0!3m2!1sen!2sus!4v1409800129049"
-            width="400"
+            width="100%"
             height="400"
             frameBorder="0"></iframe>
         </Col>

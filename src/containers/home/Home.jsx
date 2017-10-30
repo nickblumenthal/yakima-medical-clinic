@@ -17,38 +17,37 @@ class Home extends Component {
   render() {
     return [
         <Row noGutters>
-          <Col>
+          <Col xs={12}>
             <img src={TeamPhoto} />
-            <p className="main-description">
+            <p className="main-description text-left text-sm-center">
               Yakima Medical Clinic provides a full range of general practice medical services for family members of all ages. We serve patients from Eastern Washington and Central Washington communities including the Lower Yakima Valley, Ellensburg, Tri-Cities, and Moses Lake - all from our office in Yakima.
 
               We provide walk-in and urgent care medical services during our clinic hours - even if you are not a current patient and don't have an appointment.
             </p>
           </Col>
         </Row>,
-        <Row noGutters className="justify-content-center m-4">
-          <Col xs={8} lg={4}>
-            <Media>
-              <Media left href="#">
+        <Row noGutters className="justify-content-around m-5">
+          <Col xs={12} lg={4}>
+            <Media className="pb-4">
+              <Media left className="pr-sm-2 d-none d-sm-block">
                 <Media object src={stethoscope} />
               </Media>
-              <Media body>
+              <Media body className="text-left">
                 <Media heading>
                   Care Providers
                 </Media>
-                Our team of highly skilled care providers works closely with patients to determine the optimal therapy or treatment to ensure good health. Meet our Care Providers
+                Our team of highly skilled care providers work closely with patients to determine the optimal therapy or treatment to ensure good health.
 
                 Our doctors provide specialized services in treating obesity through weight loss medication as well as pain management medication.
               </Media>
             </Media>
           </Col>
-          <Col xs={1} />
-          <Col xs={8} lg={4}>
+          <Col xs={12} lg={4}>
             <Media>
-              <Media left href="#">
+              <Media left className="pr-sm-2 d-none d-sm-block">
                 <Media object src={heart} />
               </Media>
-              <Media body>
+              <Media body className="text-left">
                 <Media heading>
                   Addiction Treatment
                 </Media>
@@ -57,8 +56,8 @@ class Home extends Component {
             </Media>
           </Col>
         </Row>,
-        <Row noGutters className="justify-content-center card-row p-4">
-          <Col xs={10}>
+        <Row noGutters className="justify-content-center card-row py-2 p-sm-4">
+          <Col xs={12} md={10}>
             <CardDeck>
               <Col md={12} lg={4}>
                 <Card>

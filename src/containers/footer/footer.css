@@ -4,3 +4,7 @@
   color: white;
   position: absolute;
   width: 100%; }
+
+@media (max-width: 575px) {
+  .footer {
+    bottom: -184px; } }

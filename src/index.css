@@ -6,4 +6,5 @@ body {
 
 #root{
   height: inherit;
+  min-height: 100vh;
 }

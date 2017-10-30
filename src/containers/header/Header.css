@@ -6,8 +6,7 @@
 ul {
   height: 100%; }
   ul li.nav-item {
-    padding: 0px 20px;
-    height: 100%; }
+    padding: 0px 20px; }
     ul li.nav-item a {
       color: #6e6e6e;
       text-decoration: none; }
@@ -24,3 +23,16 @@ ul {
         ul li.nav-item a.active:after {
           transform: scaleX(1);
           transition: 0; }
+
+.bm-menu li.nav-item {
+  padding: 5px 20px; }
+  .bm-menu li.nav-item a {
+    color: #6e6e6e;
+    text-decoration: none; }
+    .bm-menu li.nav-item a.active {
+      color: #793b3d; }
+      .bm-menu li.nav-item a.active:after {
+        transform: scaleX(0);
+        transition: 0; }
+    .bm-menu li.nav-item a:active {
+      color: black; }
