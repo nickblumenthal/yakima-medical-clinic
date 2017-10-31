@@ -8,7 +8,7 @@ class Contact extends Component {
   render() {
     return(
       <Row noGutters className="justify-content-center">
-        <Col xs={11} md={5} className="text-left">
+        <Col xs={11} md={3} className="text-left">
           <address>
             <b>Yakima Medical Clinic</b><br />
             310 Holton Ave<br />
@@ -23,7 +23,7 @@ class Contact extends Component {
           </p>
           <img src={officeFront} style={{'width': '300px'}} alt='Front of the Yakima Medical Clinic'/>
         </Col>
-        <Col xs={12} md={5}>
+        <Col xs={12} md={7}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2741.6877942047377!2d-120.523866!3d46.59340900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5499d7e055de42ef%3A0x839faf518dc9e375!2sYakima+Medical+Clinic!5e0!3m2!1sen!2sus!4v1409800129049"
             width="100%"

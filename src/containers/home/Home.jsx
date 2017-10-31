@@ -9,7 +9,7 @@ import './home.css'
 
 import TeamPhoto from 'team_large.jpg'
 import SynergyPhoto from 'synergy_logo.png'
-import MwlcyPhoto from 'mwlcy_logo.jpg'
+import MwlcyPhoto from 'mwlcy_logo.svg'
 import SuboxonePhoto from 'suboxone_logo.png'
 import { stethoscope, heart } from 'data_icons/stethoscope'
 
@@ -27,7 +27,7 @@ class Home extends Component {
           </Col>
         </Row>,
         <Row noGutters className="justify-content-around m-5">
-          <Col xs={12} lg={4}>
+          <Col xs={12} lg={5}>
             <Media className="pb-4">
               <Media left className="pr-sm-2 d-none d-sm-block">
                 <Media object src={stethoscope} />
@@ -42,7 +42,7 @@ class Home extends Component {
               </Media>
             </Media>
           </Col>
-          <Col xs={12} lg={4}>
+          <Col xs={12} lg={5}>
             <Media>
               <Media left className="pr-sm-2 d-none d-sm-block">
                 <Media object src={heart} />
@@ -88,7 +88,7 @@ class Home extends Component {
                     <CardTitle>Suboxone</CardTitle>
                     <CardSubtitle>Dependency Treatment</CardSubtitle>
                     <CardText>Yakima Medical Clinic provides specializes in Suboxone to help heal chemical dependency.  Our trained staff has years of experience in providing the tools necessary to reach full recovery.</CardText>
-                    <Button>Find out more</Button>
+                    <a href="/suboxone_info.pdf"><Button>Find out more</Button></a>
                   </CardBody>
                 </Card>
               </Col>

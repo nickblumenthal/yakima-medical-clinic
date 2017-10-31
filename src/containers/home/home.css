@@ -4,6 +4,8 @@ img {
 .card {
   padding: 20px;
   height: 475px; }
+  .card button {
+    cursor: pointer; }
 
 .card-text {
   margin-top: 10px; }
