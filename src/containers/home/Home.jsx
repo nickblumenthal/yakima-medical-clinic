@@ -74,7 +74,7 @@ class Home extends Component {
                 <Card>
                   <CardImg top width="100%" src={MwlcyPhoto} alt="Medical Weight Loss Center Yakima" />
                   <CardBody>
-                    <CardTitle>SMART Weight Loss</CardTitle>
+                    <CardTitle>Sustainable Weight Loss</CardTitle>
                     <CardSubtitle>with Candace Degesnstein</CardSubtitle>
                     <CardText>Meet your health and wellness goals with our specialized nutrition and exercise plans tailored to your specific needs.</CardText>
                     <Button>Book a consultation</Button>
