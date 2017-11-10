@@ -26,7 +26,7 @@ class Footer extends Component {
             <span className="d-none d-sm-inline">Yakima Medical Clinic</span><br />
             310 Holton Avenue<br />
             Yakima, WA 98902<br />
-            Phone: 509.452.2508<br />
+            Phone: (509) 452-2508<br />
           </address>
         </Col>
       </Row>

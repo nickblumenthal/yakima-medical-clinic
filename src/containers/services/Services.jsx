@@ -11,7 +11,7 @@ class Services extends Component {
         <Col xs={12} md={10} className="text-left">
           <h2>Family Medicine</h2>
           <p>
-            Yakima Medical Clinic provides a full range of family practice medical services for family members of all ages in the Yakima area. Our highly qualified care providers offer comprehensive well child and adult exams,
+            Yakima Medical Clinic provides a full range of family practice medical services for family members of all ages in the Yakima area. Our highly qualified care providers offer comprehensive well child and adult exams.
 
             We assist patients with pain management when clinically necessary.
 
@@ -33,7 +33,7 @@ class Services extends Component {
         <Col xs={12} md={10} className="text-left">
           <h2>Suboxone Treatment for Opiate Addiction</h2>
           <p>
-            An area of specialization at Yakima Medical Clinic is a clinic for addiction treatments. Our treatments include Suboxone (buprenorphine), a medication used to treat opiate dependence and addiction. For more information, click here.
+            An area of specialization at Yakima Medical Clinic is a clinic for addiction treatments. Our treatments include Suboxone (buprenorphine), a medication used to treat opiate dependence and addiction. For more information, <a href="./suboxone_info.pdf">click here</a>.
           </p>
         </Col>
       </Row>

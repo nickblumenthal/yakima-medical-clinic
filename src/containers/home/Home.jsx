@@ -18,7 +18,7 @@ class Home extends Component {
     return [
         <Row noGutters>
           <Col xs={12}>
-            <img src={TeamPhoto} />
+            <img src={TeamPhoto} className="banner"/>
             <p className="main-description text-left text-sm-center">
               Yakima Medical Clinic provides a full range of general practice medical services for family members of all ages. We serve patients from Eastern Washington and Central Washington communities including the Lower Yakima Valley, Ellensburg, Tri-Cities, and Moses Lake - all from our office in Yakima.
 

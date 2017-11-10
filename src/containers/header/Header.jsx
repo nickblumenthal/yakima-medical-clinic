@@ -7,7 +7,8 @@ import DesktopNav from 'DesktopNav'
 import MobileNav from 'MobileNav'
 
 import './Header.css'
-import Logo from 'ymc_logo_text_2.svg'
+import LogoText from 'ymc_logo_text_2.svg'
+import Logo from 'logo_2_icon.png'
 
 class Header extends Component {
   constructor(props) {
@@ -31,7 +32,7 @@ class Header extends Component {
         <Col>
           <Navbar light expand="lg" className="py-0 flex-nowrap justify-content-between">
             <NavbarBrand tag="span">
-              <Link to="/"><img src={Logo} alt='Yakima Medical Clinic Logo' className="logo"/></Link>
+              <Link to="/"><img src={Logo} style={{"width": "64px"}} className="d-none d-sm-inline-block"/><img src={LogoText} alt='Yakima Medical Clinic Logo' className="logo"/></Link>
             </NavbarBrand>
             <DesktopNav className="d-none d-lg-flex" />
             <MobileNav className="d-block d-lg-none"/>

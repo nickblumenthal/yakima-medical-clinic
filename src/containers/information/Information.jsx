@@ -43,7 +43,7 @@ class Information extends Component {
           <section>
             <h3>Medical Records</h3>
             <p>
-              If you are requesting any medical record information, we require that the patient sign a medical records release form. Upon receiving the release form, charts are copied by IOD Incorporated and mailed within 1-3 working days after they are completed. Please feel free to contact IOD Incorporated at 1-877-328-7344 ext 72 for their price list. Download the Authorization for Release of Information [PDF File pdf 99 KB]
+              If you are requesting any medical record information, we require that the patient sign a medical records release form. Upon receiving the release form, charts are copied by IOD Incorporated and mailed within 1-3 working days after they are completed. Please feel free to contact IOD Incorporated at 1-877-328-7344 ext 72 for their price list. <a href="./release_info.pdf">Download the Authorization for Release of Information</a>
             </p>
           </section>
           <section>
@@ -61,13 +61,13 @@ class Information extends Component {
           <section>
             <h3>Scheduling</h3>
             <p>
-              If you are inquiring about a setting up routine follow up, you may do this via e-mail. Please state the days and times that work best for you. We will then e-mail back the date and time of your appointment. If this is an acute issue and you are need of a same-day appointment, please call our scheduling desk. Download the New Patient Health History [PDF File pdf 67 KB]
+              If you are inquiring about a setting up routine follow up, you may do this via <a href="mailto:scheduling@yakimamedicalclinic.com">e-mail</a>. Please state the days and times that work best for you. We will then e-mail back the date and time of your appointment. If this is an acute issue and you are need of a same-day appointment, please call our scheduling desk. <a href="./new_patient_health_history.pdf">Download the New Patient Health History</a>
             </p>
           </section>
           <section>
             <h3>Hippa Privacy Policies</h3>
             <p>
-              Yakima Medical Clinic respects your privacy. We understand that your personal health information is very sensitive. We will not disclose your information to others unless you authorize us to do so, or unless the law authorizes or requires us to do so. Download the Notice of Privacy Practices [PDF File pdf 66 KB]
+              Yakima Medical Clinic respects your privacy. We understand that your personal health information is very sensitive. We will not disclose your information to others unless you authorize us to do so, or unless the law authorizes or requires us to do so. <a href="./privacy_practices.pdf">Download the Notice of Privacy Practices</a>
             </p>
           </section>
         </Col>
