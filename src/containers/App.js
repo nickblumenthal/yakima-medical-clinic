@@ -4,7 +4,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Switch
 } from 'react-router-dom'
 
 import { Container } from 'reactstrap'
@@ -25,12 +25,15 @@ class App extends Component {
       <Router>
         <div className="App">
           <Header />
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/services" component={Services} />
-          <Route path="/education" component={Education} />
-          <Route path="/information" component={Information} />
-          <Route path="/contact" component={Contact} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/services" component={Services} />
+            <Route path="/education" component={Education} />
+            <Route path="/information" component={Information} />
+            <Route path="/contact" component={Contact} />
+            <Route component={Home} />
+          </Switch>
           <Footer />
         </div>
       </Router>
