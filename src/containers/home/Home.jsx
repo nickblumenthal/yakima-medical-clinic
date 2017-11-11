@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { Row, Col, Jumbotron } from 'reactstrap'
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
- CardSubtitle, CardBody } from 'reactstrap';
+ CardSubtitle, CardBody, CardLink } from 'reactstrap';
  import { Media } from 'reactstrap';
 
 import './home.css'
@@ -16,7 +16,7 @@ import { stethoscope, heart } from 'data_icons/stethoscope'
 class Home extends Component {
   render() {
     return [
-        <Row noGutters>
+        <Row noGutters key={1}>
           <Col xs={12}>
             <img src={TeamPhoto} className="banner"/>
             <p className="main-description text-left text-sm-center">
@@ -26,7 +26,7 @@ class Home extends Component {
             </p>
           </Col>
         </Row>,
-        <Row noGutters className="justify-content-around m-5">
+        <Row noGutters className="justify-content-around m-5" key={2}>
           <Col xs={12} lg={5}>
             <Media className="pb-4">
               <Media left className="pr-sm-2 d-none d-sm-block">
@@ -56,43 +56,39 @@ class Home extends Component {
             </Media>
           </Col>
         </Row>,
-        <Row noGutters className="justify-content-center card-row py-2 p-sm-4">
-          <Col xs={12} md={10}>
-            <CardDeck>
-              <Col md={12} lg={4}>
-                <Card>
-                  <CardImg top width="100%" src={SynergyPhoto} alt="Synergy MedAesthetics" />
-                  <CardBody>
-                    <CardTitle>A New You</CardTitle>
-                    <CardSubtitle>Now Serving Tri-Cities</CardSubtitle>
-                    <CardText>Synergy has partnered with Yakima Medical Center to offer cutting edge cosmetic and body sculpting procedures</CardText>
-                    <a href="http://synergymedaesthetics.com/"><Button>Visit</Button></a>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md={12} lg={4}>
-                <Card>
-                  <CardImg top width="100%" src={MwlcyPhoto} alt="Medical Weight Loss Center Yakima" />
-                  <CardBody>
-                    <CardTitle>Sustainable Weight Loss</CardTitle>
-                    <CardSubtitle>with Candace Degesnstein</CardSubtitle>
-                    <CardText>Meet your health and wellness goals with our specialized nutrition and exercise plans tailored to your specific needs.</CardText>
-                    <Button>Book a consultation</Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col md={12} lg={4}>
-                <Card>
-                  <CardImg top width="100%" src={SuboxonePhoto} alt="Suboxone Logo" />
-                  <CardBody>
-                    <CardTitle>Suboxone</CardTitle>
-                    <CardSubtitle>Dependency Treatment</CardSubtitle>
-                    <CardText>Yakima Medical Clinic provides specializes in Suboxone to help heal chemical dependency.  Our trained staff has years of experience in providing the tools necessary to reach full recovery.</CardText>
-                    <a href="/suboxone_info.pdf"><Button>Find out more</Button></a>
-                  </CardBody>
-                </Card>
-              </Col>
-            </CardDeck>
+        <Row noGutters className="justify-content-around card-row py-2 p-sm-4" key={3}>
+          <Col xs={12} md={10} lg={3}>
+            <Card>
+              <CardImg top width="100%" src={SynergyPhoto} alt="Synergy MedAesthetics" />
+              <CardBody>
+                <CardTitle>A New You</CardTitle>
+                <CardSubtitle>Now Serving Tri-Cities</CardSubtitle>
+                <CardText>Synergy has partnered with Yakima Medical Center to offer cutting edge cosmetic and body sculpting procedures</CardText>
+                <CardLink href="http://synergymedaesthetics.com/">Visit</CardLink>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col xs={12} md={10} lg={3}>
+            <Card>
+              <CardImg top width="100%" src={MwlcyPhoto} alt="Medical Weight Loss Center Yakima" />
+              <CardBody>
+                <CardTitle>Sustainable Weight Loss</CardTitle>
+                <CardSubtitle>with Candace Degesnstein</CardSubtitle>
+                <CardText>Meet your health and wellness goals with our specialized nutrition and exercise plans tailored to your specific needs.</CardText>
+                <CardLink href="mailto:scheduling@yakimamedicalclinic.com">Book a consultation</CardLink>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col xs={12} md={10} lg={3}>
+            <Card>
+              <CardImg top width="100%" src={SuboxonePhoto} alt="Suboxone Logo" />
+              <CardBody>
+                <CardTitle>Suboxone</CardTitle>
+                <CardSubtitle>Dependency Treatment</CardSubtitle>
+                <CardText>Yakima Medical Clinic specializes in Suboxone to help heal chemical dependency.  Our trained staff has years of experience in providing the tools necessary to reach full recovery.</CardText>
+                <CardLink href="/suboxone_info.pdf">Find out more</CardLink>
+              </CardBody>
+            </Card>
           </Col>
         </Row>
     ]

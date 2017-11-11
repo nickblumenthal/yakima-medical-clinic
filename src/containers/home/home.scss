@@ -4,10 +4,14 @@ img.banner {
 
 .card {
     padding: 20px;
-    height: 475px;
+    // height: 475px;
 
     button {
       cursor: pointer;
+    }
+
+    .card-img-top {
+      // height: 135px;
     }
 }
 
