@@ -10,7 +10,13 @@ img.banner {
   margin-top: 10px; }
 
 .card-row {
-  background-color: #f2f2f2; }
+  background-color: #fff; }
+  .card-row .bordered-lg {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee; }
+    @media (max-width: 992px) {
+      .card-row .bordered-lg {
+        border: 0; } }
 
 .main-description {
   padding: 20px 60px 30px 60px;
