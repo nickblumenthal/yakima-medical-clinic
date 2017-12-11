@@ -50,17 +50,6 @@ class Education extends Component {
                 Yakima Medical Clinic providers and staff often us Web MD. Web MD is dedicated to providing quality health information and services to consumers, providers and health plan members.
             </Media>
           </Media>
-          <Media className="mb-4">
-            <Media left href="http://www.thehartcenter.com">
-              <Media object src={heartIcon} alt="Hart Center" />
-            </Media>
-            <Media body className="ml-3">
-              <Media heading>
-                <a href="http://www.thehartcenter.com">Hart Center</a>
-              </Media>
-              The Hart Center is another excellent resource for information on mental health and addiction issues.
-            </Media>
-          </Media>
         </Col>
       </Row>
     ]

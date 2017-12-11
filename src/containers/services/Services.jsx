@@ -23,6 +23,15 @@ class Services extends Component {
       </Row>,
       <Row noGutters className="justify-content-center p-4">
         <Col xs={12} md={10} className="text-left">
+          <h2>Telemedicine Visits</h2>
+          <p>
+            We strive to make all of our services as easy and accessible as possible.  We are proud to offer telemedicine visits.
+            Simply schedule an appointment and one of our care providers will be happy to video chat with you from the comfort of your home.
+          </p>
+        </Col>
+      </Row>,
+      <Row noGutters className="justify-content-center p-4">
+        <Col xs={12} md={10} className="text-left">
           <h2>Chemical Dependence Treatment</h2>
           <p>
             Yakima Medical Clinic offers treatment and medication management for drugs of abuse such as alcohol, cocaine and meth. These treatments are offered to all ages who are willing to start the process to a clean and successful lifestyle.

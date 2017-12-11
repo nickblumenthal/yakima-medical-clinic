@@ -83,8 +83,8 @@ class Home extends Component {
 
               <a href="/suboxone_info.pdf"><img width="100%" src={SuboxonePhoto} alt="Suboxone Logo" /></a>
               <CardBody>
-                <CardTitle>Suboxone</CardTitle>
-                <CardSubtitle>Dependency Treatment</CardSubtitle>
+                <CardTitle>Opiod Dependency</CardTitle>
+                <CardSubtitle>Suboxone Medication Assisted Treatments</CardSubtitle>
                 <CardText>Yakima Medical Clinic specializes in Suboxone to help heal chemical dependency.  Our trained staff has years of experience in providing the tools necessary to reach full recovery.</CardText>
                 <CardLink href="/suboxone_info.pdf">Find out more</CardLink>
               </CardBody>
