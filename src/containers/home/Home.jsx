@@ -51,7 +51,7 @@ class Home extends Component {
                 <Media heading>
                   Addiction Treatment
                 </Media>
-                An additional area of specialty we offer is evaluation and treatment management for drugs of abuse such as cocaine, alcohol and meth. Dr. Vye also specializes in Addiction Treatments with Suboxone, which is utilized for opiate addiction.
+                Dr. Vye is a board certified addiction specialist in the evaluation and treatment management for drugs of abuse such as cocaine, alcohol and meth. The clinic also specializes in Addiction Treatments with Suboxone, which is utilized for opiate addiction.
               </Media>
             </Media>
           </Col>
@@ -75,7 +75,7 @@ class Home extends Component {
               <CardBody>
                 <CardTitle>Sustainable Weight Loss</CardTitle>
                 <CardText>Meet your health and wellness goals with our specialized nutrition and exercise plans tailored to your specific needs.</CardText>
-                <CardLink href="mailto:scheduling@yakimamedicalclinic.com">Book a consultation</CardLink>
+                <CardLink href="mailto:jericksen@yvn.com">Book a consultation</CardLink>
               </CardBody>
               <hr  className="d-lg-none"/>
           </Col>
@@ -85,7 +85,7 @@ class Home extends Component {
               <CardBody>
                 <CardTitle>Opiod Dependency</CardTitle>
                 <CardSubtitle>Suboxone Medication Assisted Treatments</CardSubtitle>
-                <CardText>Yakima Medical Clinic specializes in Suboxone to help heal chemical dependency.  Our trained staff has years of experience in providing the tools necessary to reach full recovery.</CardText>
+                <CardText>Yakima Medical Clinic specializes in Suboxone to help treat chemical dependency.  Our trained staff has years of experience in providing the tools necessary to reach full recovery.</CardText>
                 <CardLink href="/suboxone_info.pdf">Find out more</CardLink>
               </CardBody>
           </Col>
