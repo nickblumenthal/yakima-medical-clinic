@@ -15,11 +15,11 @@ class Contact extends Component {
             Yakima, Washington 98902<br />
             Phone (509) 452-2508<br />
             Fax (509) 452-7316<br />
+            Email: <a href="mailto:ymc@yvn.com">ymc@yvn.com</a><br />
           </address>
           <p>
             <b>Office Hours:</b><br />
-            Monday-Thursday: 8:00am - 5:00pm<br />
-            Friday: 8:00am - 3:00pm<br />
+            Monday-Friday: 8:00am - 5:00pm<br />
           </p>
           <img src={officeFront} style={{'width': '300px'}} alt='Front of the Yakima Medical Clinic'/>
         </Col>
@@ -34,7 +34,6 @@ class Contact extends Component {
           <p>
             If the office is closed at the time of your call, you may leave a general message on the office voice mail. That call will be returned during the next business day.<br />
 
-            To contact the physician on call, please call the Medical Exchange at (509) 494-8136.
           </p>
 
           <h4>Caution regarding email communications</h4>

@@ -19,7 +19,10 @@ class Footer extends Component {
       <Row noGutters className="footer justify-content-center pt-4">
         <Col xs={10} md={5} className="text-sm-center text-md-left">
           © 2005-{this.currentYear()} Yakima Medical Clinic, PC<br />
-          Open: Mon-Thurs 8-5; Fri 8-3
+          Open: Mon-Fri 8-5
+          <br/>
+          <br/>
+          <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </Col>
         <Col xs={10} md={5} className="text-sm-center text-md-right">
           <address>

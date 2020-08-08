@@ -4,6 +4,11 @@
   color: white;
   position: absolute;
   width: 100%; }
+  .footer a {
+    color: #999999; }
+    .footer a:hover {
+      text-decoration: none;
+      color: #BBBBBB; }
 
 @media (max-width: 575px) {
   .footer {

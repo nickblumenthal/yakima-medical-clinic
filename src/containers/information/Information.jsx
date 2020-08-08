@@ -8,6 +8,10 @@ class Information extends Component {
       <Row noGutters className="justify-content-center">
         <Col xs={11} sm={8} className="text-left">
           <section>
+            <h3>New Patient Forms</h3>
+            <p>Download new patient forms <a href="./ymc_med_docs.pdf">here</a>.</p>
+          </section>
+          <section>
             <h3>Medical Insurance</h3>
             We are currently accepting the following insurance plans:
             <ul>
@@ -61,7 +65,7 @@ class Information extends Component {
           <section>
             <h3>Scheduling</h3>
             <p>
-              If you are inquiring about a setting up routine follow up, you may do this via <a href="mailto:scheduling@yakimamedicalclinic.com">e-mail</a>. Please state the days and times that work best for you. We will then e-mail back the date and time of your appointment. If this is an acute issue and you are need of a same-day appointment, please call our scheduling desk. <a href="./new_patient_health_history.pdf">Download the New Patient Health History</a>
+              If you are inquiring about a setting up routine follow up, you may do this via <a href="mailto:ymc@yvn.com">e-mail</a>. Please state the days and times that work best for you. We will then e-mail back the date and time of your appointment. If this is an acute issue and you are need of a same-day appointment, please call our scheduling desk. <a href="./new_patient_health_history.pdf">Download the New Patient Health History</a>
             </p>
           </section>
           <section>

@@ -4,6 +4,14 @@
   color: white;
   position: absolute;
   width: 100%;
+
+  a {
+    color: #999999;
+    &:hover {
+      text-decoration: none;
+      color: #BBBBBB;
+    }
+  }
 }
 
 @media (max-width: 575px) {

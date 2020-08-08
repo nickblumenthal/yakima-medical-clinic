@@ -17,6 +17,7 @@ import Header from 'header/Header'
 import Home from 'home/Home'
 import Information from 'information/Information'
 import Services from 'services/Services'
+import Synergy from "synergy/Synergy";
 
 
 class App extends Component {

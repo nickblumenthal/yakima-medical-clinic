@@ -32,14 +32,6 @@ class Services extends Component {
       </Row>,
       <Row noGutters className="justify-content-center p-4">
         <Col xs={12} md={10} className="text-left">
-          <h2>Chemical Dependence Treatment</h2>
-          <p>
-            Yakima Medical Clinic offers treatment and medication management for drugs of abuse such as alcohol, cocaine and meth. These treatments are offered to all ages who are willing to start the process to a clean and successful lifestyle.
-          </p>
-        </Col>
-      </Row>,
-      <Row noGutters className="justify-content-center p-4">
-        <Col xs={12} md={10} className="text-left">
           <h2>Suboxone Treatment for Opiate Addiction</h2>
           <p>
             An area of specialization at Yakima Medical Clinic is a clinic for addiction treatments. Our treatments include Suboxone (buprenorphine), a medication used to treat opiate dependence and addiction. For more information, <a href="./suboxone_info.pdf">click here</a>.
