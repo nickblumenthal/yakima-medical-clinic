@@ -11,13 +11,7 @@ class Services extends Component {
         <Col xs={12} md={10} className="text-left">
           <h2>Family Medicine</h2>
           <p>
-            Yakima Medical Clinic provides a full range of family practice medical services for family members of all ages in the Yakima area. Our highly qualified care providers offer comprehensive well child and adult exams.
-
-            We assist patients with pain management when clinically necessary.
-
-            Our comprehensive lifestyle program addresses a full range of medical concerns. We specialize in assisting patients with weight loss by developing a specific lifestyle program and prescribing a weight loss medication as needed.
-
-            Our practice includes a bilingual provider to better serve patients who speak Spanish.
+            Yakima Medical Clinic provides a full range of family practice medical services for family members of all ages in the Yakima area. Our highly qualified care providers offer comprehensive well child and adult exams. Our practice includes a bilingual provider to better serve patients who speak Spanish.
           </p>
         </Col>
       </Row>,
@@ -27,6 +21,14 @@ class Services extends Component {
           <p>
             We strive to make all of our services as easy and accessible as possible.  We are proud to offer telemedicine visits.
             Simply schedule an appointment and one of our care providers will be happy to video chat with you from the comfort of your home.
+          </p>
+        </Col>
+      </Row>,
+      <Row noGutters className="justify-content-center p-4">
+        <Col xs={12} md={10} className="text-left">
+          <h2>Pain Management and Weight Loss</h2>
+          <p>
+            We assist patients with pain management when clinically necessary and recommend physician monitored weight-loss medications when medically appropriate.
           </p>
         </Col>
       </Row>,

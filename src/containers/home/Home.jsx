@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 import { Row, Col, Jumbotron } from 'reactstrap'
-import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
- CardSubtitle, CardBody, CardLink } from 'reactstrap';
- import { Media } from 'reactstrap';
+import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody, CardLink } from 'reactstrap';
+import { Media } from 'reactstrap';
+import { FiPhone } from 'react-icons/fi';
 
 import './home.css'
 
@@ -24,7 +24,13 @@ class Home extends Component {
             <p className="main-description text-left text-sm-center">
               Yakima Medical Clinic provides a full range of general practice medical services for family members of all ages. We serve patients across Washington state - all from our office in Yakima.
 
-              We provide walk-in and urgent care medical services during our clinic hours - even if you are not a current patient and don't have an appointment.
+              We provide walk-in and urgent care medical services during our clinic hours - even if you don't have an appointment.
+              <div className="main-description text-center mb-0 pb-0">
+                <a className="btn btn-dark flex align-items-center" role="button" href="tel:509-452-2508">
+                  <FiPhone style={{top: -1, position: "relative"}}/>
+                  <span className="pl-2">Call Now: (509) 452-2508</span>
+                </a>
+              </div>
             </p>
           </Col>
         </Row>,
@@ -64,7 +70,7 @@ class Home extends Component {
               </Media>
               <Media body className="text-left">
                 <Media heading>
-                  Opiod Dependency
+                  Opioid Dependency
                 </Media>
                 Yakima Medical Clinic specializes in Suboxone to help treat chemical dependency.  Dr. Vye is board certified in addiction medicine, and our trained staff has years of experience in providing the tools necessary to reach full recovery.
               </Media>

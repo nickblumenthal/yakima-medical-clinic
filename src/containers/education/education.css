@@ -1,6 +1,6 @@
 .education img {
   height: 300px;
-  object-fit: fill;
+  object-fit: cover;
   width: 100%; }
 
 .education .media img {

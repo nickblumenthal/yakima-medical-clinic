@@ -12,7 +12,7 @@ import lopezHeadshot from 'lopez_headshot.jpg'
 class About extends Component {
   render() {
     return[
-      <Row noGutters className="goal-statement py-2 p-4">
+      <Row noGutters className="goal-statement py-2 p-4 justify-content-center">
         <blockquote className="blockquote">
           Our goal at the Yakima Medical Clinic is to provide you with the best possible care suited to your individual needs. We treat each patient with <em>respect, compassion, and honesty</em>.
           <footer className="blockquote-footer">Dr. Vye</footer>

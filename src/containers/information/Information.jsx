@@ -69,7 +69,7 @@ class Information extends Component {
             </p>
           </section>
           <section>
-            <h3>Hippa Privacy Policies</h3>
+            <h3>HIPAA Privacy Policies</h3>
             <p>
               Yakima Medical Clinic respects your privacy. We understand that your personal health information is very sensitive. We will not disclose your information to others unless you authorize us to do so, or unless the law authorizes or requires us to do so. <a href="./privacy_practices.pdf">Download the Notice of Privacy Practices</a>
             </p>
